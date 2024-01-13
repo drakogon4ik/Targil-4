@@ -149,7 +149,6 @@ def main():
                 request = receive_all(client_socket).decode()
                 if request:
                     request_split = request.split()
-                    print(request_split)
                     if validating_error(request_split):
                         if len(request_split) > 1:
                             filename = request_split[1][1:]
