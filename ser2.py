@@ -11,7 +11,6 @@ Date: 11/01/24
 
 import socket
 import os
-from protocol import *
 
 
 HOST = '0.0.0.0'
